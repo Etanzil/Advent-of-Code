@@ -151,7 +151,7 @@ def check_if_setting_position_solid_makes_a_loop(grid,
 
 
 if __name__ == "__main__":
-    with open("../resources/Day6Input.txt") as f:
+    with open("../resources/day6.txt") as f:
         raw_input = f.read()
 
     print(f"part one: {part_one(raw_input)}")
